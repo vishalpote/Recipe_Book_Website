@@ -1,0 +1,35 @@
+.bg-image
+{
+  position: relative;
+  background: linear-gradient(rgba(8,8,8,0.3),rgba(8,8,8,0.3)),url('https://source.unsplash.com/1000x300/?food');
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-content{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.header-title
+{
+  text-transform: uppercase;
+  letter-spacing: 16px;
+  color: white;
+  font-size: 80px;
+  
+}
+.searchbox
+{
+  padding-top: 100px !important;
+  padding-bottom: 20px !important;
+}
+.search-heading
+{
+  font-size: 30px;
+  font-weight: 500;
+
+}
